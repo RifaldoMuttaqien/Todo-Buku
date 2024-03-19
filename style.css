@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+main{
+    
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.sec-head{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.cari-buku{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.complete-button{
+    background-color: green;
+    color: white;
+    margin-left: 2px;
+    padding: 1px;
+    margin-top: 10px;
+    
+}
+
+.delete-button{
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: row; 
+    gap: 8px; 
+}
+
+.bookshelf{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.column-layout{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.cari-buku{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#searchBookTitle{
+    width: 90%;
+    height: 500%;
+    padding: 10px;
+    background-color: rgb(0, 225, 255);
+}
+
+#searchSubmit{
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+
+#bookSubmit{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+#inputBooktitle, #inputBookAuthor, #inputBookYear{
+    width: 100%;
+    height: 500%;
+    padding: 10px;
+    background-color: rgb(0, 225, 255);
+    
+}

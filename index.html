@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Aps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Perpustakaan</h1>
+    </header>
+
+    <main>
+        <section class="sec-head">
+            <h2 align="center">Masukkan Daftar Buku Baru</h2>
+            <form action="" id="inputBook">
+                <div class="input">
+                    <label for="inputBooktitle">Judul</label></br>
+                    <input type="text" id="inputBooktitle" name="inputBooktitle" required>
+                </div>
+                <div class="input">
+                    <label for="inputBookAuthor">Penulis</label></br>
+                    <input type="text" id="inputBookAuthor" name="inputBookAuthor" required>
+                </div>
+                <div class="input">
+                    <label for="inputBookYear">Tahun Rilis</label></br>
+                    <input type="number" id="inputBookYear" name="inputBookYear" required>
+                </div>
+                <div class="input-checklist">
+                    <label for="inputBookIsComplete">Selesai Di Baca Checklist</label>
+                    <input type="checkbox" id="inputBookIsComplete" name="inputBookIsComplete">
+                </div>
+
+                <button id="bookSubmit" type="submit">Masukkan Buku dalam Rak</button>
+            </form>
+        </section>
+
+        <section class="cari-buku">
+            <h2 align="Center">Cari Buku</h2>
+            <form action="" id="searchBook">
+                <label for="searchBookTitle">Judul</label></br>
+                <input id="searchBookTitle" type="text">
+                <button id="searchSubmit" type="submit">Cari</button>
+            </form>
+        </section>
+
+
+        <section id="todos" class="bookshelf">
+            <h2>Belum Selesai Baca</h2>
+            <div id="incompleteBookshelfList" class="book_list column-layout">
+
+            </div>
+        </section>
+
+        <section class="bookshelf">
+            <h2> Selesai Baca</h2>
+            <div id="completeBookshelfList" class="book_list column-layout">
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="inde.js"></script>
+</body>
+
+</html>
